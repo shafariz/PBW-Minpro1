@@ -28,6 +28,12 @@ Website ini memiliki beberapa section utama yaitu:
 
 **1. Navbar**
 
+<img width="1901" height="65" alt="image" src="https://github.com/user-attachments/assets/ba45118a-2f7f-43d7-b3ca-4fd029842d72" />
+
+<img width="762" height="65" alt="image" src="https://github.com/user-attachments/assets/504ebfd0-a797-45f4-b0d6-10236d053dbf" />
+
+<img width="758" height="216" alt="image" src="https://github.com/user-attachments/assets/0b119d37-feb0-4321-804b-34a29f6992ba" />
+
 Menampilkan:
 
 - Nama brand website
@@ -114,6 +120,8 @@ Navigasi menggunakan anchor link (href="#home") yang mengarah ke id section tert
 
 **2. Home (Hero Section)**
 
+<img width="1899" height="915" alt="image" src="https://github.com/user-attachments/assets/e1ef9028-9132-4449-bd77-e88fc261d1a3" />
+
 Menampilkan:
 
 - Foto profil
@@ -195,6 +203,8 @@ Tombol:
 - Styling warna diubah melalui CSS .btn-primary.
 
 **3 About Me + Skills + Experiences**
+
+<img width="1899" height="709" alt="image" src="https://github.com/user-attachments/assets/c4b2e74f-ea6d-4e58-afbe-ace402cd7a6d" />
 
 Menampilkan:
 
@@ -314,6 +324,8 @@ CSS tambahan pada #about mengatur:
 - Line-height untuk kenyamanan membaca
 
 **4. Certificates**
+
+<img width="1901" height="699" alt="image" src="https://github.com/user-attachments/assets/36b0d772-c3e4-4478-94a6-4954585eb956" />
 
 Menampilkan:
 
