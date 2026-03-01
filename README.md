@@ -108,7 +108,13 @@ Bagian menu:
 
 collapse navbar-collapse memungkinkan menu tersembunyi saat layar kecil.
 
-ms-auto pada <ul> digunakan untuk membuat menu rata kanan (margin start auto).
+ms-auto pada
+
+```dart
+<ul> 
+```
+
+digunakan untuk membuat menu rata kanan (margin start auto).
 
 Navigasi menggunakan anchor link (href="#home") yang mengarah ke id section tertentu, sehingga memungkinkan smooth scroll antar bagian halaman.
 
