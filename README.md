@@ -108,7 +108,7 @@ Bagian menu:
 
 - collapse navbar-collapse memungkinkan menu tersembunyi saat layar kecil.
 
-- ms-auto pada ```dart<ul>``` digunakan untuk membuat menu rata kanan (margin start auto).
+- ms-auto pada ```<ul>``` digunakan untuk membuat menu rata kanan (margin start auto).
 
 Navigasi menggunakan anchor link (href="#home") yang mengarah ke id section tertentu, sehingga memungkinkan smooth scroll antar bagian halaman.
 
@@ -160,11 +160,11 @@ Section ini memiliki id="home" agar dapat diakses dari navbar.
 
 Class hero pada CSS mengatur:
 
-min-height: 100vh; → membuat section setinggi 1 layar penuh.
+- min-height: 100vh; → membuat section setinggi 1 layar penuh.
 
-padding-top: 120px; → memberi jarak dari navbar fixed-top.
+- padding-top: 120px; → memberi jarak dari navbar fixed-top.
 
-Background color khusus untuk membedakan section.
+- Background color khusus untuk membedakan section.
 
 Class d-flex align-items-center digunakan untuk membuat konten berada di tengah secara vertikal menggunakan Flexbox.
 
@@ -172,27 +172,27 @@ text-center membuat seluruh konten di dalam section rata tengah.
 
 Bagian card:
 
-card adalah komponen Bootstrap.
+- card adalah komponen Bootstrap.
 
-shadow memberi efek bayangan.
+- shadow memberi efek bayangan.
 
-mx-auto membuat card berada di tengah secara horizontal.
+- mx-auto membuat card berada di tengah secara horizontal.
 
 Class hero-img di CSS mengatur:
 
-Lebar 100%
+- Lebar 100%
 
-Tinggi tetap 350px
+- Tinggi tetap 350px
 
-object-fit: cover agar gambar tidak terdistorsi
+- object-fit: cover agar gambar tidak terdistorsi
 
-object-position: center agar fokus gambar tetap di tengah
+- object-position: center agar fokus gambar tetap di tengah
 
 Tombol:
 
-btn btn-primary menggunakan styling Bootstrap.
+- btn btn-primary menggunakan styling Bootstrap.
 
-Styling warna diubah melalui CSS .btn-primary.
+- Styling warna diubah melalui CSS .btn-primary.
 
 **3 About Me + Skills + Experiences**
 
@@ -281,9 +281,9 @@ Section menggunakan py-5 untuk memberikan padding vertikal besar.
 
 Layout menggunakan Bootstrap Grid:
 
-row sebagai pembungkus kolom
+- row sebagai pembungkus kolom
 
-col-md-6 berarti pada layar medium ke atas akan terbagi dua kolom, sedangkan pada layar kecil akan menjadi satu kolom (stacked).
+- col-md-6 berarti pada layar medium ke atas akan terbagi dua kolom, sedangkan pada layar kecil akan menjadi satu kolom (stacked).
 
 Bagian Skills:
 
@@ -295,23 +295,23 @@ Komponen progress Bootstrap terdiri dari:
 </div>
 ```
 
-progress sebagai container.
+- progress sebagai container.
 
-progress-bar sebagai bar yang bergerak.
+- progress-bar sebagai bar yang bergerak.
 
-style="width: 90%" menentukan panjang bar sesuai persentase skill.
+- style="width: 90%" menentukan panjang bar sesuai persentase skill.
 
-Warna diatur menggunakan class seperti bg-success, bg-info, bg-warning.
+- Warna diatur menggunakan class seperti bg-success, bg-info, bg-warning.
 
-Bagian Experiences menggunakan <ul> untuk menampilkan daftar pengalaman secara terstruktur dan sederhana.
+Bagian Experiences menggunakan ```<ul>``` untuk menampilkan daftar pengalaman secara terstruktur dan sederhana.
 
 CSS tambahan pada #about mengatur:
 
-Warna teks menjadi hitam
+- Warna teks menjadi hitam
 
-Spacing antar elemen
+- Spacing antar elemen
 
-Line-height untuk kenyamanan membaca
+- Line-height untuk kenyamanan membaca
 
 **4. Certificates**
 
@@ -383,9 +383,9 @@ row justify-content-center digunakan untuk meratakan card ke tengah.
 
 col-md-5 col-lg-4 membuat layout responsif:
 
-2 kolom pada medium
+- 2 kolom pada medium
 
-3 kolom pada large
+- 3 kolom pada large
 
 Setiap sertifikat dibungkus dalam komponen card dengan shadow untuk efek elevasi.
 
