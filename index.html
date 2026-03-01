@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Google Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Sendiri -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shafa's Portofolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section id="home" class="hero d-flex align-items-center text-center">
+    <div class="container text-center">
+
+        <div class="card hero-card shadow mx-auto">
+            <img src="images/profile.jpg" class="card-img-top hero-img">
+            <div class="card-body">
+                <h2 class="fw-bold">Shafa Rizqi Nur Wahidah</h2>
+                <p class="lead mb-0">Information Systems Undergraduate</p>
+            </div>
+        </div>
+
+        <a href="#about" class="btn btn-primary mt-4">See More</a>
+
+    </div>
+</section>
+
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+
+            <!-- About Me -->
+            <div class="col-md-6">
+                <h2 class="mb-4 fw-bold">About Me</h2>
+                <p>
+                    Hi! I am an Information Systems undergraduate at Mulawarman University with a strong interest in Data Analysis and UI/UX Design. I am passionate about transforming data into meaningful insights and creating user-centered designs that deliver impactful digital experiences.
+                </p>
+
+                <p>
+                    Through academic projects and volunteer experiences, I have developed strong analytical thinking, problem-solving, and teamwork skills. I enjoy collaborating with others, learning new technologies, and continuously improving my abilities to adapt to dynamic environments.
+                </p>
+
+                <p>
+                    I am detail-oriented, responsible, and highly motivated to grow both personally and professionally. For me, technology is not just about systems, it is about building solutions that create real value for people.
+                </p>
+            </div>
+
+            <!-- Skills & Experiences -->
+            <div class="col-md-6">
+
+                <h2 class="fw-bold">Skills</h2>
+
+                <div class="mb-3">
+                    <label>Canva</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 90%">90%</div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Excel</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 85%">85%</div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label>Figma</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+                    </div>
+                </div>
+
+                <h2 class="fw-bold mt-4">Experiences</h2>
+                <ul>
+                    <li>Staff of Bureau Entrepreneurship Development INFORSA 2025/2026</li>
+                    <li>Volunteer of Baktikuu.id</li>
+                    <li>UI/UX Design Study Club Participant</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="certificates" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Certificates</h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-5 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <img src="images/certificate1.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Staff of EDEN</h5>
+                            <p class="card-text">Information Systems Association</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <img src="images/certificate2.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Volunteer</h5>
+                            <p class="card-text">Baktikuu.id</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <img src="images/certificate3.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text">Information Systems</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
