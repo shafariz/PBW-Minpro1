@@ -94,11 +94,11 @@ Bagian tombol:
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
 ```
 
-navbar-toggler digunakan untuk membuat tombol hamburger.
+- navbar-toggler digunakan untuk membuat tombol hamburger.
 
-data-bs-toggle="collapse" mengaktifkan fitur collapse Bootstrap.
+- data-bs-toggle="collapse" mengaktifkan fitur collapse Bootstrap.
 
-data-bs-target="#navbarNav" menghubungkan tombol dengan div yang memiliki id navbarNav.
+- data-bs-target="#navbarNav" menghubungkan tombol dengan div yang memiliki id navbarNav.
 
 Bagian menu:
 
@@ -106,15 +106,9 @@ Bagian menu:
 <div class="collapse navbar-collapse" id="navbarNav">
 ```
 
-collapse navbar-collapse memungkinkan menu tersembunyi saat layar kecil.
+- collapse navbar-collapse memungkinkan menu tersembunyi saat layar kecil.
 
-ms-auto pada
-
-```dart
-<ul> 
-```
-
-digunakan untuk membuat menu rata kanan (margin start auto).
+- ms-auto pada **<ul>** digunakan untuk membuat menu rata kanan (margin start auto).
 
 Navigasi menggunakan anchor link (href="#home") yang mengarah ke id section tertentu, sehingga memungkinkan smooth scroll antar bagian halaman.
 
