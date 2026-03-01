@@ -411,7 +411,7 @@ Digunakan untuk membuat struktur dan kerangka website seperti section, navbar, c
 
 Digunakan untuk mengatur warna, typography, layout tambahan, serta custom styling agar sesuai dengan konsep desain.
 
-**3. Bootstrap 5 (Nilai Tambah**
+**3. Bootstrap 5 (Nilai Tambah)**
 
 Digunakan untuk:
 
